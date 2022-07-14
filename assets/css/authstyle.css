@@ -1,0 +1,23 @@
+.auth-r-bg{
+    background: url(/assets/image/authbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.auth-pad{
+    padding: 120px 50px 0px;
+}
+.auth-input{
+    border: unset;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+}
+.auth-icon-wr{
+    background: unset;
+    border: unset;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+}
+.auth-input:focus{
+    border-color: gray;
+    box-shadow: unset;
+}
