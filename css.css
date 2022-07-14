@@ -1,14 +1,35 @@
 .top1 {
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
 }
-.container{
+/* .container{
     margin-left: 150px;
     margin-right: 150px;
-}
+} */
 .topleft{
+    margin-top: 60px;
+    margin-left: 150px;
+    width: 50%;
+   
+    /* position: static; */
     /* position: absolute; */
+}
+.topright{
+    width: 50%;
+    background-color: #6379F4;
+    height: 658px;
+    border-bottom-left-radius: 150px;
+    /* position: static; */
+    /* position: absolute; */
+}
+.topimage{
+    margin-left: 150px;
+}
+.topbtn{
+    margin-top: 60px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .ewallet{
     font-family: 'Nunito Sans';
@@ -41,7 +62,7 @@
     font-size: 0.8rem;
     line-height: 25px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px 20px 5px 20px;
 }
 .btntry{
@@ -55,19 +76,17 @@
     color: #6379F4;
     border-color: #6379F4;
 }
-
-.topright{
-    /* position: absolute;
-    background: #6379F4; */
-}
 .login{
     background-color: #6379F4;
     color: #FFFFFF;
     border-color: #FFFFFF;
+    padding: 5px 30px 5px 30px;
 }
 
 .sign{
+    margin-left: 30px;
     background-color: #6379F4;
     color: #FFFFFF;
     border-color: #FFFFFF;
+    padding: 5px 25px 5px 25px;
 }
