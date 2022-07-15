@@ -62,8 +62,6 @@
     border: 1px solid rgb(177, 177, 177);
     border-radius: 10px;
     padding: 0.5rem;
-    /* padding: 1rem 1rem 1rem 1rem; */
-    /* border-bottom: 1px solid rgb(177, 177, 177); */
 }
 
 .auth-pin input{
@@ -86,5 +84,9 @@
         text-align: center;
     }
     .auth-pin{
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 0.4rem;
+        margin: 0.4rem;
     }
 }
