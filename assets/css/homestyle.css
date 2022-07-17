@@ -130,3 +130,33 @@ body{
     color: #3A3D42;
 }
 /* history */
+
+/* confirmation */
+.boxconfirm{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 0.7rem;
+}
+.p-confirm{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #7A7886;
+}
+.h3-confirm{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #514F5B;
+}
+.btn-confirm{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.7rem;
+    background: #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+}
+/* confirmation */
