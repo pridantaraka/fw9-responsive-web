@@ -13,16 +13,12 @@
     margin-left: 150px;
     width: 50%;
    
-    /* position: static; */
-    /* position: absolute; */
 }
 .topright{
     width: 50%;
     background-color: #6379F4;
     height: 658px;
     border-bottom-left-radius: 150px;
-    /* position: static; */
-    /* position: absolute; */
 }
 .topimage{
     margin-left: 150px;
