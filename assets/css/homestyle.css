@@ -157,6 +157,24 @@ body{
     border: none;
     border-radius: 0.7rem;
     background: #6379F4;
+    margin-top: 5rem;
     box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
 }
 /* confirmation */
+
+/* topup */
+.p-topup{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6379F4;
+}
+.p1-topup{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #7A7886;
+}
+/* topup */
