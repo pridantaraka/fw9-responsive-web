@@ -212,3 +212,18 @@ body{
     height: 3rem;
 }
 /* resetPassword */
+/* changePin */
+.change-pin{
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+.change-pin input{
+    border: unset;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    text-align: center;
+    font-size: 1.2rem;
+}
+.change-pin input:focus{
+    outline: none;
+}
