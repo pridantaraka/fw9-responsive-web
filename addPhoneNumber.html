@@ -17,13 +17,13 @@
 
   </head>
   <body>
-    <header class="col-md-12 bg-white h-box h-boxsh">
-        <nav>
-            <div class="d-flex flex-row justify-content-between">
+    <header class="row">
+        <nav class="col-sm-12 col-md-12 bg-white h-box h-boxsh">
+            <div class="d-flex flex-row justify-content-md-between">
                 <div class="h-zwallet align-self-center ps-5">
                     <span>Zwallet</span>
                 </div>
-                <div class="d-inline-flex flex-row p-4 pe-5">
+                <div class="d-md-inline-flex flex-md-row p-md-4 pe-md-5">
                     <div class="align-self-center px-2">
                     <img src="/assets/image/users/RobertChandler.png" alt="">
                     </div>
@@ -41,72 +41,72 @@
         </nav>
     </header>
     <main class="min-vw-100 mw-100">
-        <div class="d-flex flex-row justify-content-center gap-2 mt-4 mb-4">
+        <div class="row d-flex flex-row justify-content-center gap-2 mt-4 mb-4 ">
         <section class="col-md-3 bg-white main-box p-5">
-            <div class="d-flex flex-column">
-            <div class="d-flex flex-column justify-content-end gap-5">
-                <a class="nav-link ms-3 my-1" href="">
-                    <div class="d-inline-flex flex-row sec-menu-p">
-                        <div class="align-self-center px-2">
-                            <i data-feather="grid"></i>
-                        </div>
-                        <div><p class="mb-0">Dashboard</p></div>
-                    </div>
-                </a>
+            <div class="d-flex flex-column justify-content-between">
+                <div class="d-flex flex-column gap-5">
                     <a class="nav-link ms-3 my-1" href="">
                         <div class="d-inline-flex flex-row sec-menu-p">
                             <div class="align-self-center px-2">
-                                <i data-feather="arrow-up"></i>
+                                <i data-feather="grid"></i>
                             </div>
-                            <div><p class="mb-0">Transfer</p></div>
+                            <div><p class="mb-0">Dashboard</p></div>
                         </div>
                     </a>
-                <a class="nav-link ms-3 my-1" href="">
-                    <div class="d-inline-flex flex-row sec-menu-p">
-                        <div class="align-self-center px-2">
-                            <i data-feather="plus"></i>
+                        <a class="nav-link ms-3 my-1" href="">
+                            <div class="d-inline-flex flex-row sec-menu-p">
+                                <div class="align-self-center px-2">
+                                    <i data-feather="arrow-up"></i>
+                                </div>
+                                <div><p class="mb-0">Transfer</p></div>
+                            </div>
+                        </a>
+                    <a class="nav-link ms-3 my-1" href="">
+                        <div class="d-inline-flex flex-row sec-menu-p">
+                            <div class="align-self-center px-2">
+                                <i data-feather="plus"></i>
+                            </div>
+                            <div><p class="mb-0">TopUp</p></div>
                         </div>
-                        <div><p class="mb-0">TopUp</p></div>
-                    </div>
-                </a>
-                <a class="nav-link ms-3 my-1" href="">
-                    <div class="d-inline-flex flex-row sec-menu-p">
-                        <div class="align-self-center px-2">
-                            <i data-feather="user"></i>
+                    </a>
+                    <a class="nav-link ms-3 my-1" href="">
+                        <div class="d-inline-flex flex-row sec-menu-p">
+                            <div class="align-self-center px-2">
+                                <i data-feather="user"></i>
+                            </div>
+                            <div>Profile</div>
                         </div>
-                        <div>Profile</div>
-                    </div>
-                </a>
+                    </a>
+                </div>
+                <div class="d-flex bot-log">
+                    <a class="nav-link ms-3 my-1" href="">
+                        <div class="d-inline-flex flex-row sec-menu-p">
+                            <div class="align-self-center px-2">
+                                <i data-feather="log-out"></i>
+                            </div>
+                            <div><p class="mb-0">Logout</p></div>
+                        </div>
+                    </a>    
+                </div>
             </div>
-            <div class="d-flex bot-log">
-                <a class="nav-link ms-3 my-1" href="">
-                    <div class="d-inline-flex flex-row sec-menu-p">
-                        <div class="align-self-center px-2">
-                            <i data-feather="log-out"></i>
-                        </div>
-                        <div><p class="mb-0">Logout</p></div>
-                    </div>
-                </a>    
-            </div>
-        </div>
         </section>
         <section class="col-8 bg-white main-box p-5">
             <div class="d-flex flex-column gap-3">
-                <h3 class="trans-his py-2">Manage Phone Number</h3>
-                <p class="p-confirm">You can only delete the phone number and then<br>
-                     you must add another phone number.</p>
-                <div class="d-inline-flex flex-row justify-content-between p-3 boxconfirm align-content-center">
-                    <div class="d-inline-flex flex-column align-self-center px-2">
-                        <p class="p-confirm mb-1">Primary</p>
-                        <p class="h3-confirm mb-0">+62 813-9387-7946</p>
-                    </div>
-                    <div class="align-self-center">
-                        <a class="nav-link ms-3 my-1 text-hover p-confirm" href="">
-                            <div class="align-self-center px-2">
-                                <i data-feather="trash"></i>
-                            </div>
-                        </a>
-                    </div>
+                <h3 class="trans-his py-2">Add Phone Number</h3>
+                <p class="p-confirm">Add at least one phone number for the transfer<br>
+                     ID so you can start transfering your money<br>
+                      to another user.</p>
+                <div class="d-inline-flex flex-column justify-content-center w-50 align-self-center py-5 gap-5 align-content-center">
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text reset-icon-wrp">
+                            <i data-feather="phone"></i>
+                            <p class="mb-0 ps-2">+62</p>
+                        </span>
+                        <input type="tel" class="form-control reset-input" placeholder="Enter your phone number">
+                      </div>
+                      <div class="align-self-center">
+                        <button class="reset-btn-chnge">Add Phone Number</button>
+                      </div>
                 </div>
             </div>
         </section>

@@ -99,6 +99,8 @@ body{
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
+    width: 10rem;
+    height: 3.5rem;
 }
 .sec-menu-p{
     font-weight: 700;
@@ -113,6 +115,9 @@ body{
     font-weight: 600;
     font-size: 14px;
     color: #6379F4;
+}
+.bot-log{
+    padding-top: 15rem;
 }
 /* home */
 
@@ -212,6 +217,7 @@ body{
     height: 3rem;
 }
 /* resetPassword */
+
 /* changePin */
 .change-pin{
     border: 1px solid rgb(177, 177, 177);
@@ -227,3 +233,17 @@ body{
 .change-pin input:focus{
     outline: none;
 }
+/* changePin */
+
+/* Transfer */
+.trans-search{
+    
+}
+.trans-search input:focus{
+    outline: none;
+    box-shadow: unset;
+}
+.input-search{
+    border: unset;
+}
+/* Transfer */

@@ -24,13 +24,13 @@
                 </div>
                 <div class="d-inline-flex flex-row p-4 pe-5">
                     <div class="align-self-center px-2">
-                    <img src="/assets/image/users/RobertChandler.png" alt="">
+                    <img src="/assets/image/users/RobertChandler.png" alt="img-profile">
                     </div>
                     <div class="d-inline-flex flex-column align-self-center px-2">
                         <p class="h-user mb-0">Robert Chandler</p>
                         <p class="h-phone mb-0">+62 8139 3877 7946</p>
                     </div>
-                    <a class="nav-link ms-3 my-1 align-self-center px-2" href="">
+                    <a class="nav-link ms-3 my-1 align-self-center px-2" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <div class="sec-menu-p">
                             <i data-feather="bell"></i>
                         </div>
@@ -39,12 +39,52 @@
             </div>
         </nav>
     </header>
-        <main class="min-vw-100 mw-100">
+        <!-- Popup -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Today</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="p-confirm p-4 mb-0">Today</h5>
+                    <div class="d-inline-flex flex-row p-3 boxconfirm align-content-center w-100">
+                        <div class="d-inline-flex flex-column align-self-center px-2 ">
+                            <img src="/assets/image/in-notif.png" alt="img-notif">
+                        </div>
+                    </div>
+                    <div class="d-inline-flex flex-row p-3 boxconfirm align-content-center w-100">
+                        <div class="d-inline-flex flex-column align-self-center px-2 ">
+                            <img src="/assets/image/out-notif.png" alt="img-notif">
+                        </div>
+                    </div>
+                    <h5 class="p-confirm p-4 mb-0">This Week</h5>
+                    <div class="d-inline-flex flex-row p-3 boxconfirm align-content-center w-100">
+                        <div class="d-inline-flex flex-column align-self-center px-2 ">
+                            <img src="/assets/image/in-notif1.png" alt="img-notif">
+                        </div>
+                    </div>
+                    <div class="d-inline-flex flex-row p-3 boxconfirm align-content-center w-100">
+                        <div class="d-inline-flex flex-column align-self-center px-2 ">
+                            <img src="/assets/image/out-notif1.png" alt="img-notif">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Popup -->
+        <main class="min-vw-100 mw-100 row">
             <div class="d-flex flex-row justify-content-center gap-2 mt-4 mb-4">
-            <section class="col-md-3 row-cols-6 bg-white main-box p-5">
+            <section class="col-md-3 bg-white main-box p-5">
                 <div class="d-flex flex-column">
                 <div class="d-flex flex-column justify-content-end gap-5">
-                    <a class="nav-link ms-3 my-1" href="">
+                    <a class="nav-link ms-3 my-1" href="homepage.html">
                         <div class="d-inline-flex flex-row sec-menu-p">
                             <div class="align-self-center px-2">
                                 <i data-feather="grid"></i>
@@ -52,7 +92,7 @@
                             <div><p class="mb-0">Dashboard</p></div>
                         </div>
                     </a>
-                        <a class="nav-link ms-3 my-1" href="">
+                        <a class="nav-link ms-3 my-1" href="transfer.html">
                             <div class="d-inline-flex flex-row sec-menu-p">
                                 <div class="align-self-center px-2">
                                     <i data-feather="arrow-up"></i>
@@ -60,7 +100,7 @@
                                 <div><p class="mb-0">Transfer</p></div>
                             </div>
                         </a>
-                    <a class="nav-link ms-3 my-1" href="">
+                    <a class="nav-link ms-3 my-1" href="topup.html">
                         <div class="d-inline-flex flex-row sec-menu-p">
                             <div class="align-self-center px-2">
                                 <i data-feather="plus"></i>
@@ -68,7 +108,7 @@
                             <div><p class="mb-0">TopUp</p></div>
                         </div>
                     </a>
-                    <a class="nav-link ms-3 my-1" href="">
+                    <a class="nav-link ms-3 my-1" href="profile.html">
                         <div class="d-inline-flex flex-row sec-menu-p">
                             <div class="align-self-center px-2">
                                 <i data-feather="user"></i>
@@ -76,17 +116,17 @@
                             <div>Profile</div>
                         </div>
                     </a>
-                </div>
-                <a class="nav-link ms-3 my-1" href="">
-                    <div class="d-flex flex-row position-absolute bottom-0">
-                        <div class="d-inline-flex sec-menu-p">
-                            <div class="align-self-center px-2">
-                                <i data-feather="log-out"></i>
+                    <a class="nav-link ms-3 my-1" href="login.html">
+                        <div class="d-flex">
+                            <div class="d-inline-flex sec-menu-p">
+                                <div class="align-self-center px-2">
+                                    <i data-feather="log-out"></i>
+                                </div>
+                                <div><p class="mb-0">Logout</p></div>
                             </div>
-                            <div><p class="mb-0">Logout</p></div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
             </section>
             <section class="col-8 main-box d-flex flex-column gap-2">
@@ -98,31 +138,31 @@
                             <p class="sec-p">+62 813-9387-7946</p>
                         </div>
                         <div class="d-flex flex-column justify-content-center p-4 gap-2">
-                            <button class="btn-box p-2"><i data-feather="arrow-up"></i>Transfer</button>
-                            <button class="btn-box p-1"><i data-feather="plus"></i>Top Up</button>
+                            <button class="btn-box"><i data-feather="arrow-up"></i>Transfer</button>
+                            <button class="btn-box"><i data-feather="plus"></i>Top Up</button>
                         </div>
                     </div>
                 </section>
                 <section class="col-12 main-box d-flex flex-row gap-2">
                     <section class="col-8 bg-white main-box">
                         <div class="d-flex justify-content-between p-4">
-                            <div><img src="/assets/image/in2.png" alt=""></div>
-                            <div><img src="/assets/image/out2.png" alt=""></div>
+                            <div><img src="/assets/image/in2.png" alt="grafic-image"></div>
+                            <div><img src="/assets/image/out2.png" alt="grafic-image"></div>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <img src="/assets/image/graphic.png" alt="">
+                            <img src="/assets/image/graphic.png" alt="grafic-image">
                         </div>
                     </section>
                     <section class="col-4 bg-white main-box">
                         <div class="p-3">
                             <div class="d-flex justify-content-between">
                                 <p class="p-history">Transaction History</p>
-                                <a class="nav-link ms-3 my-1 sec-menu-see" href="">See all</a>
+                                <a class="nav-link ms-3 my-1 sec-menu-see" href="historypage.html">See all</a>
                             </div>
                             <div class="p-1">
                                 <div class="d-inline-flex flex-row pb-3">
                                     <div class="align-self-center">
-                                    <img src="/assets/image/users/SamuelSuhi.png" alt="">
+                                    <img src="/assets/image/users/SamuelSuhi.png" alt="profile-image">
                                     </div>
                                     <div class="d-inline-flex flex-column align-self-center px-2">
                                         <p class="p-user mb-0">Samuel Suhi</p>
@@ -134,7 +174,7 @@
                                 </div>
                                 <div class="d-inline-flex flex-row pb-3">
                                     <div class="align-self-center">
-                                    <img src="/assets/image/Nlogo.png" alt="">
+                                    <img src="/assets/image/Nlogo.png" alt="profile-image">
                                     </div>
                                     <div class="d-inline-flex flex-column align-self-center px-2">
                                         <p class="p-user mb-0">Netflix</p>
@@ -146,7 +186,7 @@
                                 </div>
                                 <div class="d-inline-flex flex-row pb-3">
                                     <div class="align-self-center">
-                                    <img src="/assets/image/users/JessicaMera.png" alt="">
+                                    <img src="/assets/image/users/JessicaMera.png" alt="profile-image">
                                     </div>
                                     <div class="d-inline-flex flex-column align-self-center px-2">
                                         <p class="p-user mb-0">Christine Mar...</p>
@@ -158,7 +198,7 @@
                                 </div>
                                 <div class="d-inline-flex flex-row pb-3">
                                     <div class="align-self-center">
-                                    <img src="/assets/image/Alogo.png" alt="">
+                                    <img src="/assets/image/Alogo.png" alt="profile-image">
                                     </div>
                                     <div class="d-inline-flex flex-column align-self-center px-2">
                                         <p class="p-user mb-0">Adobe Inc.</p>
