@@ -177,4 +177,38 @@ body{
     align-items: center;
     color: #7A7886;
 }
+.text-hover:hover{
+    color: #6379F4;
+}
 /* topup */
+
+/* resetPassword */
+.reset-icon-wrp{
+    background: unset;
+    border: unset;
+    border-bottom: 1px solid #7A7886;
+    border-radius: 0;
+    color: #7A7886;
+}
+.reset-input{
+    border: unset;
+    border-bottom: 1px solid #7A7886;
+    border-radius: 0;
+}
+.reset-input:focus{
+    border-color: #7A7886;
+    box-shadow: unset;
+}
+.reset-btn-chnge{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #6379F4;
+    border-radius: 0.7rem;
+    border: none;
+    width: 20rem;
+    height: 3rem;
+}
+/* resetPassword */
