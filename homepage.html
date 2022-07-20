@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/homestyle.css">
   </head>
-  <body class="bg-color min-vh-100 mw-100">
-    <header class="col-md-12 bg-white h-box h-boxsh">
+  <body class="bg-color">
+    <header class="col-md-12 bg-white h-box h-boxsh mw-100">
         <nav>
             <div class="d-flex flex-row justify-content-between">
                 <div class="h-zwallet align-self-center ps-5">
@@ -79,10 +79,10 @@
             </div>
           </div>
           <!-- Popup -->
-        <main class="min-vw-100 mw-100 row">
-            <div class="d-flex flex-row justify-content-center gap-2 mt-4 mb-4">
-            <section class="col-md-3 bg-white main-box p-5">
-                <div class="d-flex flex-column">
+        <main>
+            <div class="row col-12 d-flex flex-row justify-content-md-center gap-2 mt-4 mb-4 h-100 w-100">
+            <section class="col-md-3 bg-white main-box p-md-5">
+                <div class="d-flex flex-column h-100 justify-content-between">
                 <div class="d-flex flex-column justify-content-end gap-5">
                     <a class="nav-link ms-3 my-1" href="homepage.html">
                         <div class="d-inline-flex flex-row sec-menu-p">
@@ -116,21 +116,22 @@
                             <div>Profile</div>
                         </div>
                     </a>
-                    <a class="nav-link ms-3 my-1" href="login.html">
-                        <div class="d-flex">
-                            <div class="d-inline-flex sec-menu-p">
-                                <div class="align-self-center px-2">
-                                    <i data-feather="log-out"></i>
-                                </div>
-                                <div><p class="mb-0">Logout</p></div>
-                            </div>
-                        </div>
-                    </a>
+                    
                 </div>
+                <a class="nav-link ms-3 my-1" href="login.html">
+                    <div class="d-flex">
+                        <div class="d-inline-flex sec-menu-p">
+                            <div class="align-self-center px-2">
+                                <i data-feather="log-out"></i>
+                            </div>
+                            <div><p class="mb-0">Logout</p></div>
+                        </div>
+                    </div>
+                </a>
             </div>
             </section>
-            <section class="col-8 main-box d-flex flex-column gap-2">
-                <section class="col-12 main-box sec-bg1">
+            <section class="col-12 col-md-8 main-box d-flex flex-column gap-2 row">
+                <div class="col-12 main-box sec-bg1">
                     <div class="d-flex justify-content-between">
                         <div class="d-flex flex-column p-4">
                             <p class="sec-m">Balance</p>
@@ -142,9 +143,9 @@
                             <button class="btn-box"><i data-feather="plus"></i>Top Up</button>
                         </div>
                     </div>
-                </section>
-                <section class="col-12 main-box d-flex flex-row gap-2">
-                    <section class="col-8 bg-white main-box">
+                </div>
+                <div class="col-12 main-box d-flex flex-row gap-1 p-0">
+                    <div class="col-12 col-md-8 bg-white main-box ">
                         <div class="d-flex justify-content-between p-4">
                             <div><img src="/assets/image/in2.png" alt="grafic-image"></div>
                             <div><img src="/assets/image/out2.png" alt="grafic-image"></div>
@@ -152,31 +153,31 @@
                         <div class="d-flex justify-content-center">
                             <img src="/assets/image/graphic.png" alt="grafic-image">
                         </div>
-                    </section>
-                    <section class="col-4 bg-white main-box">
-                        <div class="p-3">
+                    </div>
+                    <div class="col-12 col-md-4 bg-white main-box">
+                        <div class="p-3 row d-flex justify-content-md-between">
                             <div class="d-flex justify-content-between">
                                 <p class="p-history">Transaction History</p>
                                 <a class="nav-link ms-3 my-1 sec-menu-see" href="historypage.html">See all</a>
                             </div>
-                            <div class="p-1">
-                                <div class="d-inline-flex flex-row pb-3">
+                            <div class="p-2">
+                                <div class="d-flex flex-row justify-content-between pb-3">
                                     <div class="align-self-center">
                                     <img src="/assets/image/users/SamuelSuhi.png" alt="profile-image">
                                     </div>
-                                    <div class="d-inline-flex flex-column align-self-center px-2">
+                                    <div class="d-flex flex-column align-self-center px-2">
                                         <p class="p-user mb-0">Samuel Suhi</p>
                                         <p class="p-info mb-0">Transfer</p>
                                     </div>
-                                    <div class="d-flex align-self-end">
-                                        <p class="p-gr">+Rp50.000</p>
+                                    <div class="d-flex align-self-center">
+                                        <p class="p-gr mb-0">+Rp50.000</p>
                                     </div>
                                 </div>
-                                <div class="d-inline-flex flex-row pb-3">
+                                <div class="d-flex flex-row justify-content-between pb-3">
                                     <div class="align-self-center">
                                     <img src="/assets/image/Nlogo.png" alt="profile-image">
                                     </div>
-                                    <div class="d-inline-flex flex-column align-self-center px-2">
+                                    <div class="d-flex flex-column align-self-center px-2">
                                         <p class="p-user mb-0">Netflix</p>
                                         <p class="p-info mb-0">Subscription</p>
                                     </div>
@@ -184,11 +185,11 @@
                                         <p class="p-red">-Rp149.000</p>
                                     </div>
                                 </div>
-                                <div class="d-inline-flex flex-row pb-3">
+                                <div class="d-flex flex-row justify-content-between pb-3">
                                     <div class="align-self-center">
                                     <img src="/assets/image/users/JessicaMera.png" alt="profile-image">
                                     </div>
-                                    <div class="d-inline-flex flex-column align-self-center px-2">
+                                    <div class="d-flex flex-column align-self-center ps-3">
                                         <p class="p-user mb-0">Christine Mar...</p>
                                         <p class="p-info mb-0">Subscription</p>
                                     </div>
@@ -196,11 +197,11 @@
                                         <p class="p-gr">+Rp150.000</p>
                                     </div>
                                 </div>
-                                <div class="d-inline-flex flex-row pb-3">
+                                <div class="d-flex flex-row justify-content-between pb-3">
                                     <div class="align-self-center">
                                     <img src="/assets/image/Alogo.png" alt="profile-image">
                                     </div>
-                                    <div class="d-inline-flex flex-column align-self-center px-2">
+                                    <div class="d-flex flex-column align-self-center px-2">
                                         <p class="p-user mb-0">Adobe Inc.</p>
                                         <p class="p-info mb-0">Subscription</p>
                                     </div>
@@ -210,9 +211,10 @@
                                 </div>
                             </div>
                         </div>
-                    </section>
-                </section>
+                    </div>
+                </div>
             </section>
+        </div>
         </div>
         </main>
         <footer class="col-md-12">

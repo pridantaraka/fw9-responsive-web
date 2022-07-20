@@ -60,16 +60,12 @@ body{
 .p-gr{
     font-weight: 700;
     font-size: 16px;
-    line-height: 22px;
     color: #1EC15F;
-    text-align: end;
 }
 .p-red{
     font-weight: 700;
     font-size: 16px;
-    line-height: 22px;
     color: #FF5B37;
-    text-align: right;
 }
 .sec-bg1{
     background-color: #6379F4;
