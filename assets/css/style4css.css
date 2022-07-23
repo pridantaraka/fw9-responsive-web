@@ -23,15 +23,13 @@ h1{
     font-style: normal;
     font-weight: 800;
     font-size: 60px;
-    line-height: 93px;
     color: #3A3D42;
 }
 .p1{
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 31px;
+    font-size: 1.1rem;
     color: #3A3D42;
 }
 /* header */
@@ -41,8 +39,7 @@ h1{
 }
 .ewallet{
     font-weight: 700;
-    font-size: 29px;
-    line-height: 40px; 
+    font-size: 1.9rem; 
     color: #FFFFFF;
 }
 .btn-nav{
@@ -85,8 +82,7 @@ h1{
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.1rem;
     text-align: center;
     color: #6379F4;
     background-color: #FFFFFF;
@@ -147,8 +143,7 @@ h1{
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 1.6rem;
     color: #3A3D42;
     text-align: center;
 }
@@ -192,8 +187,7 @@ h1{
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 31px;
+    font-size: 1.2;
     color: #3A3D42;
 }
 /* sec3 */
@@ -243,8 +237,7 @@ h1{
 }
 .footer-p{
     font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 1rem;
 }
 .footer-flex{
     margin-top: 5rem;
