@@ -83,6 +83,9 @@
     .auth-ewallet{
         text-align: center;
     }
+    .auth-res{
+        text-align: center;
+    }
     .auth-pin{
         border: 1px solid;
         border-radius: 10px;
