@@ -181,6 +181,9 @@ body{
 .text-hover:hover{
     color: #6379F4;
 }
+.b-hover:hover{
+    background-color: #6379F4;
+}
 /* topup */
 
 /* resetPassword */
@@ -243,3 +246,8 @@ body{
     border: unset;
 }
 /* Transfer */
+
+/* responsive web */
+@media (max-width: 575.98px) { 
+
+ }
