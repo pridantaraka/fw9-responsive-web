@@ -145,8 +145,7 @@ body{
 }
 .h3-confirm{
     font-weight: 700;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 1.2rem;
     color: #514F5B;
 }
 .btn-confirm{

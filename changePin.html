@@ -17,13 +17,13 @@
 
   </head>
   <body>
-    <header class="col-sm-12 col-md-12 bg-white h-box h-boxsh">
+    <header class="col-12 col-md-12 bg-white h-box h-boxsh">
         <nav>
-            <div class="d-flex flex-row justify-content-md-between">
-                <div class="h-zwallet align-self-center ps-5">
+            <div class="d-flex flex-row justify-content-between">
+                <div class="h-zwallet align-self-center ps-5 d-md-block d-none">
                     <span>Zwallet</span>
                 </div>
-                <div class="d-md-inline-flex flex-md-row p-md-4 pe-md-5">
+                <div class="d-inline-flex flex-row p-4 pe-5">
                     <div class="align-self-center px-2">
                     <img src="/assets/image/users/RobertChandler.png" alt="">
                     </div>
@@ -40,6 +40,20 @@
             </div>
         </nav>
     </header>
+    <!-- dropdown menu -->
+    <div class="dropdown d-md-none w-100 bg-white my-2 main-box">
+        <button class="btn btn-white w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i data-feather="menu"></i>
+        </button>
+        <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item b-hover" href="homepage.html">Dashboard</a></li>
+        <li><a class="dropdown-item b-hover" href="transfer.html">Transfer</a></li>
+        <li><a class="dropdown-item b-hover" href="topup.html">TopUp</a></li>
+        <li><a class="dropdown-item b-hover" href="profile.html">Profile</a></li>
+        <li><a class="dropdown-item b-hover" href="./landingpage/index.html">Logout</a></li>
+        </ul>
+    </div>
+    <!-- dropdown menu -->
     <main>
         <div class="row col-12 d-flex flex-row justify-content-md-center gap-2 mx-0 px-0 mt-4 mb-4 h-100 w-100">
             <section class="col-md-3 bg-white main-box p-md-5 d-md-block d-none">
@@ -90,11 +104,11 @@
                 </a>
             </div>
         </section>
-        <section class="col-8 bg-white main-box p-5">
+        <section class="col-12 col-md-8 bg-white main-box p-5 mw-100">
             <div class="d-flex flex-column gap-3">
                 <h3 class="trans-his py-2">Change PIN</h3>
                 <p class="p-confirm">Type your new 6 digits security PIN to use in<br> Zwallet.</p>
-                <div class="d-inline-flex flex-column justify-content-center w-50 align-self-center py-5 gap-5 align-content-center">
+                <div class="d-inline-flex flex-column justify-content-center w-50 align-self-center py-5 gap-5 ">
                     <div class="d-flex flex-row gap-md-5">
                         <div class="d-flex flex-row gap-md-4">
                             <div class="change-pin">

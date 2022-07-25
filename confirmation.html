@@ -20,7 +20,7 @@
     <header class="col-md-12 bg-white h-box h-boxsh">
         <nav>
             <div class="d-flex flex-row justify-content-between">
-                <div class="h-zwallet align-self-center ps-5">
+                <div class="h-zwallet align-self-center ps-5 d-md-block d-none">
                     <span>Zwallet</span>
                 </div>
                 <div class="d-inline-flex flex-row p-4 pe-5">
@@ -40,6 +40,20 @@
             </div>
         </nav>
     </header>
+    <!-- dropdown menu -->
+    <div class="dropdown d-md-none w-100 bg-white my-2 main-box">
+        <button class="btn btn-white w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i data-feather="menu"></i>
+        </button>
+        <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item b-hover" href="homepage.html">Dashboard</a></li>
+        <li><a class="dropdown-item b-hover" href="transfer.html">Transfer</a></li>
+        <li><a class="dropdown-item b-hover" href="topup.html">TopUp</a></li>
+        <li><a class="dropdown-item b-hover" href="profile.html">Profile</a></li>
+        <li><a class="dropdown-item b-hover" href="./landingpage/index.html">Logout</a></li>
+        </ul>
+    </div>
+    <!-- dropdown menu -->
     <!-- Popup -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -134,7 +148,7 @@
                 </a>
             </div>
         </section>
-        <section class="col-8 bg-white main-box p-5">
+        <section class="col-12 col-md-8 bg-white main-box p-5">
             <div class="d-flex flex-column gap-3">
                 <h3 class="trans-his py-3">Transfer To</h3>
                 <div class="d-inline-flex flex-row justify-content-between p-4 boxconfirm align-content-center">
